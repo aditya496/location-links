@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioZor Locations & Directions</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f7f9f6; /* Very light natural/organic off-white tint */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .container {
+            background: #ffffff;
+            width: 100%;
+            max-width: 400px;
+            padding: 35px 24px;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+        .logo-container {
+            margin-bottom: 28px;
+        }
+        .logo-container img {
+            max-width: 180px;
+            height: auto;
+            display: inline-block;
+        }
+        h2 {
+            margin-top: 0;
+            color: #1a1a1a;
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 24px;
+        }
+        .btn {
+            display: block;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 16px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 16px;
+            margin-bottom: 16px;
+            transition: transform 0.1s ease, background-color 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+        }
+        .btn:active {
+            transform: scale(0.98);
+        }
+        /* BioZor Forest Green */
+        .btn-factory {
+            background-color: #1B823B;
+        }
+        .btn-factory:hover {
+            background-color: #15692f;
+        }
+        /* BioZor Vivid Orange */
+        .btn-office {
+            background-color: #E68305;
+            margin-bottom: 0; /* remove bottom margin for the last button */
+        }
+        .btn-office:hover {
+            background-color: #c46f02;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <!-- Replace 'logo.png' with the actual link/path to your uploaded BioZor logo -->
+            <img src="logo.png" alt="BioZor Logo">
+        </div>
+        
+        <h2>Select Destination</h2>
+        
+        <!-- Replace 'YOUR_FACTORY_GOOGLE_MAPS_LINK' with your actual Factory google map directions URL -->
+        <a href="YOUR_FACTORY_GOOGLE_MAPS_LINK" class="btn btn-factory" target="_blank">
+            📍 Directions to Factory
+        </a>
+        
+        <!-- Replace 'YOUR_OFFICE_GOOGLE_MAPS_LINK' with your actual Office google map directions URL -->
+        <a href="YOUR_OFFICE_GOOGLE_MAPS_LINK" class="btn btn-office" target="_blank">
+            🏢 Directions to Office
+        </a>
+    </div>
+</body>
+</html>
